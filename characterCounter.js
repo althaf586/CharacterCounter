@@ -12,8 +12,8 @@ function calculate(t)
  }
   else if(t.value.length>=10 && t.value.length<30)
  {
-  document.getElementById("total").style.color="orange";
-  document.getElementById("remaining").style.color="orange";
+  document.getElementById("total").style.color="red";
+  document.getElementById("remaining").style.color="red";
  }
    else if(t.value.length>=30)
  {
